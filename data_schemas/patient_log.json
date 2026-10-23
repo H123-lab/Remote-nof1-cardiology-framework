@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org",
+  "title": "RemoteNof1CardiologyObservationLog",
+  "description": "Unified data dictionary mapping continuous digital health metrics to FHIR Observation profiles for decentralized cardiovascular trials.",
+  "type": "object",
+  "properties": {
+    "Patient_ID": {
+      "type": "string",
+      "description": "Anonymized pseudo-identifier linked to the master hospital EHR resource map."
+    },
+    "Phenotype": {
+      "type": "string",
+      "enum": ["Phenotype_A_Stable", "Phenotype_B_Frail", "Phenotype_C_CKD"],
+      "description": "Clinical stratification profile defining baseline digital tracker compliance boundaries."
+    },
+    "Clinical_Description": {
+      "type": "string"
+    },
+    "Observation_Day": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 84,
+      "description": "Sequential trial timeline tracker mapped to the active multi-period crossover schedule."
+    },
+    "Trial_Period": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Active randomized treatment block identifier."
+    },
+    "Assigned_Treatment": {
+      "type": "string",
+      "enum": ["Strategy_A", "Strategy_B"],
+      "description": "Active therapeutic policy context (Strategy A: Standard reference GDMT vs Strategy B: Hyper-titrated active protocol)."
+    },
+    "True_Latent_Signal": {
+      "type": "number",
+      "description": "The uncorrupted underlying patient physiological state proxy used for internal simulation calibration."
+    },
+    "Observed_Sensor_Value": {
+      "type": ["number", "null"],
+      "description": "The real-world telemetry input data, embedding hardware communication drops and artifact noise levels."
+    }
+  },
+  "required": ["Patient_ID", "Phenotype", "Observation_Day", "Trial_Period", "Assigned_Treatment"]
+}
