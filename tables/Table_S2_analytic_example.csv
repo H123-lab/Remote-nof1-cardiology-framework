@@ -1,0 +1,5 @@
+Observation_Day,Assigned_Phase,Raw_SBP_Reading,Imputed_Value,Bayesian_Posterior_Mean
+1,Strategy_A,122.5,122.5,120.5
+2,Strategy_A,NaN,122.5,120.7
+3,Strategy_B,114.2,114.2,117.2
+4,Strategy_B,115.0,115.0,116.1
