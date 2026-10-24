@@ -1,0 +1,4 @@
+Manuscript_Item,Source_Input_Data,Generating_Script,Target_Output_Asset
+Table_8_Sim_Metrics,benchmarks/performance_summary.csv,benchmarks/run_repeated_simulations.py,generated/table_8_raw.csv
+Table_9_Cohort_Logs,generated/virtual_cohort_full.csv,generated/build_cohort.py,generated/table_9_cohort_summary.csv
+Safety_Evaluation_Data,safety_evaluation/safety_performance.csv,safety_evaluation/run_safety_evaluation.py,safety_evaluation/safety_performance.csv
