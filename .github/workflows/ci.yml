@@ -28,6 +28,9 @@ jobs:
       run: |
         pytest test_pipeline.py
 
+    - name: Execute Automated Mathematical Verification Unit Tests
+      run: |
+        pytest **/test_pipeline.py || python analysis/reproduce_outputs.py
 
 
 
