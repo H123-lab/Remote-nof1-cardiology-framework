@@ -1,0 +1,5 @@
+Grid_ID,Missingness_Mechanism,Missingness_Level,Autocorrelation_Rho,True_Delta_Effect
+GRID_01,MCAR,0.05,0.50,0.50
+GRID_02,MAR,0.30,0.50,0.50
+GRID_03,MNAR,0.10,0.75,0.00
+GRID_04,MCAR,0.45,0.20,1.00
