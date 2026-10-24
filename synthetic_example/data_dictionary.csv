@@ -1,0 +1,6 @@
+Variable,Type,Unit,Description
+time_index,Integer,Days,Sequential timeline tracking day from 1 to 84.
+treatment_phase,Integer,Binary,Assigned crossover intervention condition (0: Strategy A baseline, 1: Strategy B active titration).
+true_latent_sbp,Numeric,mmHg,Simulated true underlying uncorrupted physiological state proxy.
+observed_sbp,Numeric,mmHg,Raw telemetry tracking parameter with added measurement noise and missing data mask layers.
+autocorrelation_error,Numeric,Variance,AR(1) error components capturing temporal sequence dependence.
