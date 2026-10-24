@@ -16,7 +16,7 @@ def test_artifact_detection_filter():
     assert cleaned_array[0] == 120.0, "Erroneously filtered a valid baseline systolic blood pressure node"
 
 def test_bayesian_posterior_math():
-    """Mathematically verifies the normalization equations inside the Bayesian engine."""
+    """Bayesian update calculation validation engine."""
     pipeline = RemoteNof1AnalyticsPipeline()
     # Mock data vectors: Estimated effect = 1.0, tracking standard deviation = 0.5, observations = 25
     bayes_results = pipeline.compute_bayesian_single_patient_posterior(est_diff=1.0, noise_sd=0.5, n_obs=25)
@@ -25,8 +25,25 @@ def test_bayesian_posterior_math():
     assert 0.0 <= bayes_results['Posterior_Probability_B_Better_Than_A'] <= 1.0, "Probability logic out of bounds"
     assert len(bayes_results['95_Percent_Credible_Interval']) == 2, "Credible boundary configuration incomplete"
 
+def test_safety_oversight_alerts():
+    """Verifies Path 1 safety engine isolates clinical hazards from Path 2 quality data cleaning."""
+    safety = ClinicalSafetyOversightEngine()
+    
+    # Test Case 01: Severe Hypotension Hazard
+    mock_history_low = pd.DataFrame([{
+        'Observation_Day': 1,
+        'Observed_Sensor_Value': 84.0  # Path 1 must process this raw, un-imputed clinical value
+    }])
+    alerts = safety.evaluate_biometric_safety(mock_history_low)
+    
+    assert len(alerts) == 1, "Safety engine failed to flag a live clinical hazard condition"
+    assert alerts[0]['Escalation_Level'] == 'Level_2_Urgent_Dose_Adjustment', "Incorrect triage escalation path mapped"
+
 if __name__ == "__main__":
-    print("Running localized clinical platform tests...")
+    print("Running localized clinical platform verification tests...")
     test_artifact_detection_filter()
     test_bayesian_posterior_math()
-    print("[PASS] All algorithmic processing units verified successfully.")
+    test_safety_oversight_alerts()
+    print("[PASS] All algorithmic processing and safety evaluation units verified successfully.")
+
+
