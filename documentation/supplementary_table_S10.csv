@@ -1,0 +1,4 @@
+Phenotype_ID,Clinical_Persona,Stochastic_Missingness,Sensor_Noise_SD,Autoregressive_Rho,Carryover_Coefficient,Pathophysiological_Mechanism
+A,Stable / Compliant,0.05,0.25,0.5,0.0,Baseline reference with standard home telemetry compliance
+B,Frail / Non-Adherent,0.3,0.75,0.5,0.1,Wearable motion artifacts and tracking fatigue drops
+C,Renal Impairment (CKD),0.1,0.35,0.5,0.4,Prolonged 40% pharmacodynamic drug clearance delay lag
