@@ -1,0 +1,6 @@
+File,Field_Name,Definition,Units,Allowed_Values,Missing-Value_Convention
+virtual_cohort_full.csv,Participant_ID,Unique anonymized trial identifier string,Alphanumeric,PAT_001 to PAT_100,None
+virtual_cohort_full.csv,Scenario,Statistical classification identifier target,String,low-noise_low-missingness_scenario / high-noise_high-missingness_scenario / prolonged-carryover_scenario,None
+virtual_cohort_full.csv,Observed_Outcome,Corrupted sensor telemetry variable output,mmHg,70.0 to 250.0,NaN
+observation_ground_truth.csv,Latent_Outcome,True underlying physiological uncorrupted blood pressure,mmHg,90.0 to 180.0,None
+observation_ground_truth.csv,True_Safety_Event_Label,Binary classification flag tracking physiological hazard events,Integer,0 or 1,None
