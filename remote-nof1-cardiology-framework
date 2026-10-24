@@ -1,0 +1,14 @@
+# 1. Run local verification unit tests to ensure all processing loops pass clean
+python test_pipeline.py
+./reproducibility/reproduce_all.sh
+
+# 2. Stage all modifications and newly generated verification databases
+git add test_pipeline.py generated/ sensitivity/scenario_grid.csv
+
+# 3. Lock files into repository history logs using the specific commit tag reference
+git commit -m "Final institutional release: Locked ground-truth datasets, failure scenario configs, and automated test pipelines"
+
+# 4. Stream your absolute clinical shield live online
+git push origin main
+
+git rev-parse HEAD
