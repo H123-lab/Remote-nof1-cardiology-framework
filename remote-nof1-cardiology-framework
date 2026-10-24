@@ -12,3 +12,19 @@ git commit -m "Final institutional release: Locked ground-truth datasets, failur
 git push origin main
 
 git rev-parse HEAD
+
+
+# 1. Create the new nested directory structure
+mkdir -p code
+
+# 2. Run your pipeline tests to ensure absolute processing stability
+python test_pipeline.py
+
+# 3. Stage the files within active Git tracking frameworks
+git add methodological_protocol.md code/simulation_main.R
+
+# 4. Lock files into repository history logs
+git commit -m "Academic release: Synchronized citable methodological protocol records and multi-language R pipeline wrappers live"
+
+# 5. Stream the final portfolio layers live to your remote server layout
+git push origin main
