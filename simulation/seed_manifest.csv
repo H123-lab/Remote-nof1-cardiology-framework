@@ -1,0 +1,4 @@
+Scenario_ID,Scenario_Label,Master_Seed,Block_Randomization_Salt
+1,low-noise_low-missingness_scenario,4491001,0xAF771
+2,high-noise_high-missingness_scenario,4491002,0xBF772
+3,prolonged-carryover_scenario,4491003,0xCF773
