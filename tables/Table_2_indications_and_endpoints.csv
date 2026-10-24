@@ -1,0 +1,4 @@
+Cardiovascular_Indication,Primary_Remote_Endpoints,Sensors_and_Platforms,Key_Safety_Constraints
+Resistant Hypertension,Morning/Evening home SBP and DBP,Validated Bluetooth BP Cuffs,Excessive hypotension thresholds
+Paroxysmal Atrial Fibrillation,AF Burden index & Ventricular Rate control,Continuous ECG patch or PPG wearables,Proarrhythmia and severe bradycardia limits
+Chronic HFrEF Stability,Daily weight tracking & step counts,Smart scales and multi-lead wrist wearables,Acute decompensation volume shifts
