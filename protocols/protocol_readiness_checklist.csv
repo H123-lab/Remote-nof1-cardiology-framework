@@ -1,0 +1,5 @@
+Verification_Node,Required_Standard,System_Status
+Hardware Validation,Clinical-grade upper-arm automated BP monitor cuffs,COMPLETED
+Interoperability Layer,Standard FHIR Observation schema compliance,COMPLETED
+Algorithmic Core,Automated verification tests passing locally,COMPLETED
+ O Oversight,Pre-specified alert thresholds mapped to clinician dashboards,COMPLETED
