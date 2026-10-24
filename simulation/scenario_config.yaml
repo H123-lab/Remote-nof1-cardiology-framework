@@ -1,0 +1,37 @@
+simulation_metadata:
+  study_identifier: "JAHA-N-of-1-Titration-Framework-Stress-Test"
+  locked_global_seed: 2026
+  replicates_per_cell: 1000
+
+global_constants:
+  baseline_mu: 120.0
+  true_effect_delta: 0.50
+  autoregressive_rho: 0.50
+  total_periods: 6
+  observations_per_period: 14
+  total_planned_observations: 84
+
+scenarios:
+  - id: 1
+    label: "low-noise_low-missingness_scenario"
+    missingness_rate: 0.05
+    missingness_mechanism: "MCAR"
+    measurement_noise_sd: 0.25
+    carryover_coefficient: 0.00
+    artifact_probability: 0.01
+    
+  - id: 2
+    label: "high-noise_high-missingness_scenario"
+    missingness_rate: 0.30
+    missingness_mechanism: "MAR"
+    measurement_noise_sd: 0.75
+    carryover_coefficient: 0.10
+    artifact_probability: 0.05
+    
+  - id: 3
+    label: "prolonged-carryover_scenario"
+    missingness_rate: 0.10
+    missingness_mechanism: "MNAR"
+    measurement_noise_sd: 0.35
+    carryover_coefficient: 0.40
+    artifact_probability: 0.02
