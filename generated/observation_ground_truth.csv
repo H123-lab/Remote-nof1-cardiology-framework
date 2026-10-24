@@ -1,0 +1,6 @@
+Participant_ID,Time_Index,Latent_Outcome,Measurement_Error,Artifact_Flag,Missingness_Reason,True_Safety_Event_Label
+PAT_001,1,120.002,0.114,0,Observed,0
+PAT_034,1,120.002,-0.412,0,Observed,0
+PAT_034,15,120.612,0.891,1,Phase_Transition_Dropout,0
+PAT_067,1,120.002,-0.125,0,Observed,0
+PAT_067,45,119.214,0.312,0,Symptom_Driven_Dropout,1
