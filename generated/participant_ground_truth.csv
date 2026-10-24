@@ -1,0 +1,4 @@
+Participant_ID,Scenario_ID,True_Baseline_Mu,True_Treatment_Effect_Delta,True_Noise_SD,True_Carryover_Lambda
+PAT_001,1,120.0,0.5,0.25,0.0
+PAT_034,2,120.0,0.5,0.75,0.1
+PAT_067,3,120.0,0.5,0.35,0.4
