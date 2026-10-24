@@ -1,0 +1,4 @@
+Infrastructure_Layer,Core_System_Function,Interoperability_Requirements,Primary_Technical_Risk
+Home Biometric Arrays,Tele-monitoring data logs collection,Validated timestamp storage registers,Device drift and calibration decay
+Patient Smartphone App,Symptom and PRO capture engine,Intuitive localized UX design layouts,Engagement tracking fatigue
+Cloud Analytics Engine,Longitudinal modeling pipeline processing,Secure end-to-end encryption keys,Algorithmic bias from signal artifacts
