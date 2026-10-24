@@ -1,0 +1,7 @@
+{
+  "expected_assets": [
+    { "file": "generated/virtual_cohort_full.csv", "minimum_rows": 8400 },
+    { "file": "benchmarks/performance_summary.csv", "minimum_rows": 3 },
+    { "file": "safety_evaluation/safety_performance.csv", "minimum_rows": 3 }
+  ]
+}
