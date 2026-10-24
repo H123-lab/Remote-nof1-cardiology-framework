@@ -1,0 +1,4 @@
+Phenotype_Cluster,Primary_Outcome_Metric,Tracking_Frequency,Escalation_Path
+Frailty / Advanced Age,Activity tolerance & falls index,Continuous multi-sensor patch tracking,Level 1 Coordinator contact on activity decline
+Renal Impairment Context,Serum Potassium & Creatinine levels,Bi-weekly home phlebotomy schedules,Level 2 Immediate trial dose reduction
+Arrhythmia Variant,Symptom-rhythm correlation,Patient-triggered handheld ECG captures,Level 3 Emergency department transmission workflow
