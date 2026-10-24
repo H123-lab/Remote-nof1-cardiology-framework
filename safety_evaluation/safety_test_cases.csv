@@ -1,0 +1,5 @@
+Case_ID,Test_Scenario,Observed_Input_Value,Symptom_Context,Expected_Escalation_Output
+CASE_01,Genuine Extreme Value,84.0,Severe Dizziness,Level_3_Immediate_Emergency_Escalation
+CASE_02,Isolated Sensor Spike,245.0,Asymptomatic,Level_1_Nurse_Verification_Contact
+CASE_03,Persistent Dropouts,NaN,Worsening Dyspnea,Level_2_Urgent_Home_Visit_Escalation
+CASE_04,Device Disconnection,NaN,Unknown,Automated_System_Hardware_Alert
