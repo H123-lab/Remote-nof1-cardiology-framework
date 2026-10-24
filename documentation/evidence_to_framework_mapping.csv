@@ -1,0 +1,5 @@
+Manuscript_Gap,Infrastructure_Component,Operational_Specification
+Lack of Individualized Cardiology Evidence,Within-Patient Crossover Randomization Matrix,AB/BA or ABC balanced multiple-period randomization schedules
+Wearable Artifact Interference,Automated Cleaning & Artifact Filters,Signal drops for unfeasible biometrics (SBP < 70 mmHg or > 250 mmHg)
+Patient Non-Compliance / Sensor Gaps,Adaptive Imputation Algorithms,Consecutive day forward-fill logic bound to maximum 2-day limit
+ emergent Safety Risks during Titration,Clinical Safety Oversight Engine,Threshold alarms routing straight to 24/7 care provider escalation
