@@ -25,4 +25,4 @@ The following operational metrics were obtained by stress-testing the clinical s
 
 - **Level 1 (Non-Urgent / Ambiguous Check):** Core coordinator contacts the participant within 12–24 hours to reinforce correct measurement technique and verify device battery life.
 - **Level 2 (Urgent Clinical Review):** Automated decision support initiates a same-day provider review. Directs a temporary medication dose adjustment or triggers a home health visit.
-- **Level 3 (Emergency Care Override):** Bypasses all trial software processing. Routes critical alerts straight to localized emergency medical networks or local acute care centers. Immediate suspension of the N-of-1 tracking protocol is mandated.
+- **Level 3 (Emergency Care Override):** Bypasses all trial software processing. Routes critical alerts straight to localized emergency medical networks or local acute care centers. Immediate suspension of the N-of-1 tracking protocol is mandated. 
