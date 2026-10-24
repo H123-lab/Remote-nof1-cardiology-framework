@@ -1,0 +1,4 @@
+Analytical_Method,Clinician_Interpretability,Data_Stream_Suitability,Implementation_Tradeoff
+Simple Paired Comparison,High (Mean difference intervals),Limited (Disregards tracking time trends),Vulnerable to carryover and missing entries
+Time-Series Regression,Moderate (Segmented regression slopes),High (Accounts for autocorrelation),Risk of over-fitting on short sequences
+Bayesian Single-Patient Models,Very High (Probabilistic benefit ratios),Exceptional (Handles missing data arrays),Requires predefined clinical prior models
