@@ -1,0 +1,6 @@
+Parameter,Value_or_Distribution,Units,Basis,Status
+Baseline outcome,120.0,mmHg,Calibrated to standard home SBP registries,Evidence-informed
+Within-person variability,0.25 to 0.75,mmHg,Observed tracker telemetry variances,Evidence-informed
+Missingness,"0.05, 0.30",Percentage,Stress-test simulation drop assumptions,Calibrated
+Carryover,"0.00, 0.10, 0.40",Dimensionless,Pharmacodynamic clearance lag modeling,Assumed
+True treatment effect,0.50,mmHg,Pre-locked simulation target value,Known simulated truth
