@@ -1,0 +1,17 @@
+Patient_ID,Phenotype,Clinical_Description,Observation_Day,Trial_Period,Assigned_Treatment,True_Latent_Signal,Observed_Sensor_Value
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,1,1,Strategy_A,119.892,119.892
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,2,1,Strategy_A,119.644,119.644
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,3,1,Strategy_A,119.89,119.89
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,4,1,Strategy_A,119.942,119.942
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,5,1,Strategy_A,120.285,120.285
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,6,1,Strategy_A,120.207,120.207
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,7,1,Strategy_A,119.924,119.924
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,8,1,Strategy_A,119.616,119.616
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,9,1,Strategy_A,119.941,119.941
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,10,1,Strategy_A,119.902,119.902
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,11,1,Strategy_A,119.935,119.935
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,12,1,Strategy_A,119.836,119.836
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,13,1,Strategy_A,119.485,119.485
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,14,1,Strategy_A,119.939,119.939
+PAT_001,Phenotype_A_Stable,Compliant / Hemodynamically Stable Patient,15,2,Strategy_B,120.574,120.574
+... [TRUNCATED FOR STORAGE: 8,301 INTERMEDIATE PATIENT RECORDS GENERATED AUTOMATICALLY VIA VIRTUAL_COHORT_ENGINE.PY]
