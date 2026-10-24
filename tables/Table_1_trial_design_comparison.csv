@@ -1,0 +1,6 @@
+Design_Parameter,Parallel-Group_RCT,Remote_N-of-1_Trial
+Primary Unit of Inference,Population Average Treatment Effect,Individual Patient Treatment Effect
+Personalization Index,Low (Subgroup evaluation dependencies),High (Patient acts as internal control)
+Remote Infrastructure Compatibility,Moderate (Predominantly site-centric),Very High (Wearable and home device centric)
+Typical Baseline Sample Size,Hundreds to Tens of Thousands,N = 1 (Aggregated across harmonized trial nodes for cohort learning)
+Cardiovascular Application Focus,Definitive new molecular efficacy trials,Medication up-titration and personalized dose optimization
