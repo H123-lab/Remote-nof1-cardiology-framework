@@ -1,0 +1,5 @@
+Software_Dependency,Tested_Version,Execution_Shell,Verification_Command,Validation_Task
+numpy,1.24.3,Python 3.11,pytest test_pipeline.py,Mathematical logic and signal filter check
+pandas,2.0.2,Python 3.11,python virtual_cohort_engine.py,100-patient digital twin cohort generation
+scipy,1.10.1,Python 3.11,python process_table_9.py,Conjugate Bayesian posterior updates compilation
+pyyaml,6.0,Python 3.11,./reproducibility/reproduce_all.sh,Master one-click simulation execution block
