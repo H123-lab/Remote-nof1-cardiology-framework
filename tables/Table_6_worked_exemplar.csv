@@ -1,0 +1,5 @@
+Exemplar_Component,HFrEF_Titration_Specification
+Target Population,Stable Chronic HFrEF (LVEF <= 40% on steady background drugs)
+Primary Endpoint,Patient-centered dyspnea score layered over mean daily SBP
+Alternative Interventions,Strategy A (Standard target care) vs Strategy B (Intensified ARNI/MRA up-titration)
+Decision Rule,Adopt Strategy B if posterior probability of benefit >= 90% with zero safety alert violations
