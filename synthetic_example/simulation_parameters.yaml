@@ -1,0 +1,19 @@
+simulation_metadata:
+  target_replicates: 1000
+  random_seed: 2026
+  framework_alignment: "Main Manuscript Table 8 Baseline and Stress Scenarios"
+
+trial_design:
+  total_periods: 6
+  observations_per_period: 14
+  total_observations: 84
+  sequence: "A-B-A-B-A-B"
+
+statistical_constants:
+  true_treatment_effect: 0.50
+  baseline_mean_mu: 120.0
+  autoregressive_rho: 0.50
+  measurement_noise_sd_low: 0.50
+  measurement_noise_sd_high: 1.00
+  carryover_coefficient_moderate: 0.40
+  missing_data_threshold_stress: 0.30
