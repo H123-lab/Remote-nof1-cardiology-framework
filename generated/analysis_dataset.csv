@@ -1,0 +1,5 @@
+Participant_ID,Scenario_Group,Observation_Day,CrossOver_Period,Assigned_Treatment,Observed_Outcome_Value
+PAT_001,low-noise_low-missingness_scenario,1,1,Strategy_A,120.116
+PAT_001,low-noise_low-missingness_scenario,2,1,Strategy_A,119.892
+PAT_034,high-noise_high-missingness_scenario,1,1,Strategy_A,121.415
+PAT_067,prolonged-carryover_scenario,1,1,Strategy_A,120.002
