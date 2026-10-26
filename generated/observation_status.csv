@@ -1,0 +1,5 @@
+Observation_ID,Participant_ID,Time_Index,Is_Missing,Is_Artifact,Is_Excluded,Analysis_Inclusion_Flag
+OBS_001_01,PAT_001,1,0,0,0,1
+OBS_034_15,PAT_034,15,1,0,0,0
+OBS_034_22,PAT_034,22,0,1,0,0
+OBS_067_45,PAT_067,45,1,0,0,0
