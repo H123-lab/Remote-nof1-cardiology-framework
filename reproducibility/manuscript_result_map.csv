@@ -1,0 +1,33 @@
+Manuscript_Item,Analysis_Source_Script,Output_Source_Data_File,Verification_Metric_and_Logic
+Figure_1,generated/build_cohort.py,generated/cohort_accounting.csv,Cohort data-flow and parameter accounting matches
+Figure_2,simulation/scenario_config.yaml,generated/virtual_hf_cohort_validation.csv,Cross-over randomized sequence sequence timing matches
+Figure_3,core_pipeline/safety.py,safety_evaluation/safety_performance.csv,Safety path ingestion alert logic matches
+Figure_4,core_pipeline/analytics.py,benchmarks/performance_summary.csv,Analytical method pairings based on infrastructure matches
+Figure_6,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Macro-statistical replication error metrics match
+Figure_7_Panel_A,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Parameter recovery identity coordinates match
+Figure_7_Panel_B,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Kernel error density distribution frequencies match
+Figure_7_Panel_C,analysis/generate_plots.py,generated/virtual_hf_cohort_validation.csv,14-day tracking window multi-phenotype states match
+Figure_8_Panel_A,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Decision threshold bars and inconclusive rates match
+Figure_8_Panel_B,sensitivity/run_sensitivity.py,sensitivity/sensitivity_results.csv,Significance boundary lines and error reduction slopes match
+Figure_8_Panel_C,safety_evaluation/run_safety_evaluation.py,safety_evaluation/safety_performance.csv,Triage network alert sensitivities match
+Table_1,simulation/scenario_config.yaml,documentation/provenance_traceability_matrix.md,Trial paradigm comparative descriptors match
+Table_2,simulation/scenario_config.yaml,documentation/phenotype_specification.md,Cardiovascular indication end-point parameters match
+Table_3,environment/dashboard_dependencies.txt,environment/requirements.txt,Data infrastructure validation requirements match
+Table_4,core_pipeline/analytics.py,documentation/mathematical_blueprints.md,Single-patient estimator analytical requirements match
+Table_5,safety_evaluation/hazard_log.md,documentation/provenance_traceability_matrix.md,Data governance and policy criteria match
+Table_6,safety_evaluation/hazard_log.md,documentation/provenance_traceability_matrix.md,Pragmatic healthcare integration metrics match
+Table_7,simulation/scenario_config.yaml,documentation/phenotype_specification.md,Worked HFrEF experimental protocol template matches
+Table_8,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Baseline vs stress bias and RMSE vectors match
+Table_9,generated/process_cohort_accounting.py,generated/cohort_accounting.csv,Total database row accounting denominators match
+Table_10,benchmarks/run_repeated_simulations.py,benchmarks/performance_summary.csv,Regimen selection correct percentage counts match
+Table_S1,simulation/scenario_config.yaml,documentation/provenance_traceability_matrix.md,Qualitative framework consolidated multi-panel metrics match
+Table_S2,core_pipeline/analytics.py,documentation/mathematical_blueprints.md,Estimand specifications and time-trend codes match
+Table_S3,reproducibility/generate_session_info.py,environment/session_info.txt,Prior sensitivity boundaries and diagnostics match
+Table_S4,core_pipeline/analytics.py,documentation/mathematical_blueprints.md,Step-by-step mathematical trace validations match
+Table_S5,reproducibility/generate_session_info.py,environment/session_info.txt,Internal methodology gap-to-solution traces match
+Table_S6,simulation/scenario_config.yaml,documentation/phenotype_specification.md,Simulated scenario definition clusters match
+Table_S7,generated/build_cohort.py,generated/observation_ground_truth.csv,Fixed simulation equations and generative constants match
+Table_S8,safety_evaluation/run_safety_evaluation.py,safety_evaluation/safety_performance.csv,Real-time safety review true emergency counts match
+Table_S9,sensitivity/run_sensitivity.py,sensitivity/sensitivity_results.csv,Crossed grid ablation bias variables match
+Figure_S1,simulation/scenario_config.yaml,documentation/supplementary_figure_S1_specification.md,Downstream policy roadmap connection layers match
+Figure_S2,sensitivity/run_sensitivity.py,sensitivity/sensitivity_results.csv,Estimation surface degradation grid scales match
