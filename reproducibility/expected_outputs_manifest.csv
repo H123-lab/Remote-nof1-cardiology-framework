@@ -1,0 +1,6 @@
+Target_Output_Asset,Target_Directory_Branch,Expected_Data_Shape,Primary_Verification_Task,Interoperability_Compliance
+virtual_cohort_full.csv,generated/,8400 Rows x 7 Columns,Ingests full 100-patient simulation telemetry logs,FHIR Observation Schema Compatible
+participant_ground_truth.csv,generated/,100 Rows x 6 Columns,Stores uncorrupted hidden baseline and noise parameters,Truth-Isolation Sealed Bounds
+performance_summary.csv,benchmarks/,3 Scenarios x 7 Metric Nodes,Compiles 1,000 replicate Monte Carlo summary parameters,CENT Protocol Verification Guidelines
+safety_performance.csv,safety_evaluation/,4 Test Cases x 4 Outcome Columns,Tracks real-time Path 1 triage alerts under emergency stress,Two-Path Workflow Validation Enforced
+sensitivity_results.csv,sensitivity/,4 Grid Coordinates x 4 Rows,Maps multi-cell bias performance surfaces under parameter sweeps,Ablation Matrix Calibration Check
