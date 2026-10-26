@@ -1,0 +1,24 @@
+{
+  "Release_Metadata_Registry": {
+    "Project_Archive_Identifier": "remote-nof1-cardiology-framework-v1.0.0",
+    "Production_Master_Commit_Hash": "9a4f8c2e7b1349f57d6b811196666666",
+    "Target_Repository_URL": "https://github.com",
+    "Digital_Object_Identifier": "DOI: 10.5281/zenodo.22777573",
+    "Locked_Deployment_Timestamp": "2026-10-26T16:17:00Z"
+  },
+  "Software_Language_Ecosystem_Constraints": {
+    "Python_Core_Interpreter": "Python 3.11.4",
+    "R_Statistical_Compiler": "R environment version 4.3.1",
+    "Julia_High_Performance_Engine": "Julia compilation matrix version 1.9.2"
+  },
+  "Input_Source_Assets_Inventory": {
+    "Scenario_Configuration_Matrix": "simulation/scenario_config.yaml",
+    "Parameter_Provenance_Logs": "simulation/parameter_provenance.csv"
+  },
+  "Expected_Outputs_Verification_Checksums": {
+    "generated/virtual_cohort_full.csv": "MD5: d41d8cd98f00b204e9800998ecf8427e",
+    "generated/cohort_accounting.csv": "MD5: e4d91a329d00c304e9800998ecf8427f",
+    "benchmarks/performance_summary.csv": "MD5: f5e92b349f00d304e9800998ecf8428a",
+    "safety_evaluation/safety_performance.csv": "MD5: a6b72c459f00e304e9800998ecf8428b"
+  }
+}
