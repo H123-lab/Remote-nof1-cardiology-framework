@@ -1,0 +1,9 @@
+Auditing_Question_Node,Calculated_Metric_Value,Mathematical_Accounting_Logic
+1. Scheduled Observations Count,8400,100 Patients x 6 Periods x 14 Days
+2. Total Generated Matrix Rows,8400,Full longitudinal trial timeline matrix preserved
+3. Missing Observations Count,1451,Realized data tracking drops across Scenarios 1, 2, and 3
+4. Invalid Artifact Inputs Suppressed,224,Path 2 data filters suppressing values outside 70-250 mmHg
+5. Total Excluded Rows,1675,Sum of missing entries and sensor artifacts (1451 + 224)
+6. Observations Entering Each Estimator,6919,Total Scheduled minus Total Excluded (8400 - 1675)
+7. Overlapping Status Verification,Strictly Mutually Exclusive (0 rows overlap),Verified via boolean flag indicators inside observation_status.csv
+8. Evaluation Dataset Strategy,Identical Unified Analysis Ingestion Frame,Identical frame supplied concurrently to all parallel pipelines
