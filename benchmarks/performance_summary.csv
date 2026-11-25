@@ -1,0 +1,16 @@
+Scenario,Missingness,Noise,Carryover,Method,Signed_Bias_SD,Abs_Bias_SD,RMSE_SD,Coverage_95,Decision_Accuracy
+Baseline,5%,Low,None,Paired comparison,0.002,0.19,0.25,81%,100%
+Baseline,5%,Low,None,Time-series regression,-0.001,0.20,0.26,83%,97%
+Baseline,5%,Low,None,Bayesian model,-0.003,0.19,0.24,93%,97%
+Carryover stress,5%,Low,Moderate,Paired comparison,-0.192,0.30,0.35,67%,100%
+Carryover stress,5%,Low,Moderate,Time-series regression,-0.068,0.20,0.26,84%,98%
+Carryover stress,5%,Low,Moderate,Bayesian model,-0.041,0.20,0.25,94%,99%
+Missing-data stress,30%,Low,None,Paired comparison,0.004,0.20,0.26,83%,100%
+Missing-data stress,30%,Low,None,Time-series regression,0.002,0.20,0.27,75%,96%
+Missing-data stress,30%,Low,None,Bayesian model,-0.005,0.20,0.25,94%,96%
+High-noise stress,5%,High,None,Paired comparison,0.006,0.19,0.39,83%,92%
+High-noise stress,5%,High,None,Time-series regression,0.003,0.20,0.41,83%,85%
+High-noise stress,5%,High,None,Bayesian model,-0.008,0.19,0.37,92%,84%
+Combined stress,30%,High,Moderate,Paired comparison,-0.188,0.29,0.43,78%,97%
+Combined stress,30%,High,Moderate,Time-series regression,-0.074,0.20,0.43,76%,80%
+Combined stress,30%,High,Moderate,Bayesian model,-0.049,0.20,0.41,91%,83%
